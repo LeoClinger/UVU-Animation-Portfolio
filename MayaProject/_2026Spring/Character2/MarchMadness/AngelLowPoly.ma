@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: AngelLowPoly.ma
-//Last modified: Tue, Mar 31, 2026 11:09:17 PM
+//Last modified: Tue, Mar 31, 2026 11:10:52 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "AngelPants" -rfn "AngelPantsRN" -op "v=0;" -typ "mayaAscii"
 		 "/Users/leoclinger/Documents/UVU/UVU-Animation-Portfolio/MayaProject/_2026Spring/Character2/MarchMadness/AngelPants.ma";
@@ -17,12 +17,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Mac OS X 15.7.4";
-fileInfo "UUID" "6EF6067E-784C-2FA7-E3A8-AEADB18B1D77";
+fileInfo "UUID" "15A4920E-2E4E-3364-68CB-DD8163901ABC";
 createNode transform -s -n "persp";
 	rename -uid "FB8AAFDE-2E47-BA6F-B4A4-1CA5294EB98B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.0951891160579548 9.1299150677093888 16.259398877525385 ;
-	setAttr ".r" -type "double3" -16.800000000000143 -713.59999999999923 0 ;
+	setAttr ".t" -type "double3" -1.2285332450827309 6.6225631606539812 16.86364889229359 ;
+	setAttr ".r" -type "double3" -8.3999999999913193 -1084.7999999999774 -9.9742143531853992e-17 ;
 	setAttr ".rpt" -type "double3" 2.387364194870655e-18 -6.7346344169622313e-18 -3.0735934232734128e-18 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E0C68AA2-EE4B-408D-CE39-10832D1EEE7E";
