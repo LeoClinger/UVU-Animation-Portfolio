@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: SwordSceneFinalAnim.ma
-//Last modified: Tue, Apr 28, 2026 12:17:08 PM
+//Last modified: Tue, Apr 28, 2026 12:18:34 PM
 //Codeset: UTF-8
 file -rdi 1 -ns "WhiteboxSwordInStone" -rfn "WhiteboxSwordInStoneRN" -op "v=0;"
 		 -typ "mayaAscii" "/Users/leoclinger/Documents/UVU/UVU-Animation-Portfolio/MayaProject/_2025Fall/Modeling1/WhiteboxSwordInStone.ma";
@@ -21,12 +21,12 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Mac OS X 15.7.4";
-fileInfo "UUID" "7BE8E454-CC45-21BC-0ABC-C5B59527353D";
+fileInfo "UUID" "30D71F07-9F44-831B-C09C-2EAAC6B027CB";
 createNode transform -s -n "persp";
 	rename -uid "62C6906A-6F4B-0CD4-A4FE-C3BC9FCA4C67";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -7.1071722577368206 23.827499246974494 130.51566903288332 ;
-	setAttr ".r" -type "double3" -1.5383527303888689 -3242.2000000008798 0 ;
+	setAttr ".t" -type "double3" -0.1514808314617655 27.305123064601243 130.5072400604281 ;
+	setAttr ".r" -type "double3" -2.7383527303888782 -3239.8000000008651 6.9885660467481526e-18 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "55D9933E-3246-80F0-3EF8-7A98E73C1043";
 	setAttr -k off ".v" no;
@@ -259,7 +259,7 @@ createNode mesh -n "pPlaneShape1" -p "pPlane1";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode fosterParent -n "WhiteboxSwordInStoneRNfosterParent1";
-	rename -uid "04DAC56C-A44C-9433-9BB7-EE8508A2B54D";
+	rename -uid "A9886A14-1745-667A-AD09-808C0B2F153E";
 createNode mesh -n "WhiteboxSwordInStone:polySurfaceShape10" -p "WhiteboxSwordInStoneRNfosterParent1";
 	rename -uid "0CBB3B95-FA49-1470-F0B5-40B272AD5174";
 	setAttr -k off ".v";
